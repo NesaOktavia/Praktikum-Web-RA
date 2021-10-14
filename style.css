@@ -1,0 +1,99 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+          
+.header {
+    width:auto;
+    height: 100px;
+    background:white;
+    padding:10px 20px;
+    color:rgb(26, 178, 224);
+    font-size: 25px;
+    font-weight: bold;
+}   
+
+.nav {
+    width:auto;
+    background:rgb(24, 91, 216);
+    height: 25px;
+    padding:10px 10px;
+    color:#FFF;
+}    
+  
+.nav__links a{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav__links li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav__links a:hover{
+    color: hotpink
+}
+
+.main {
+    width:55%;
+    background:rgb(83, 159, 202);
+    padding:2%;
+    color: black;
+    font-size: 20px;
+}
+
+.main .biodata{
+    width:55%;
+    background:rgb(83, 159, 202);
+    padding:0px 20px; 
+    color: white;
+    font-size: 20px;
+}
+
+.main .image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+  
+.sidebar {
+    width:45%;
+    background:rgb(45, 156, 230);
+    padding:2%;
+    color: black;
+    font-size: 20px;
+}     
+
+.news a{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.news li{
+    vertical-align: middle;
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.news a:hover{
+    color: blueviolet;
+}
+
+
+.footer {
+    width: auto;
+    margin: 0;
+    padding:10px 10px;
+    background:rgb(24, 91, 216);
+    color:white;
+}
